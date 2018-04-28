@@ -1,0 +1,11 @@
+.times{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.break .session{
+  display: inline;
+}
+.breakTime{
+  display: inline;
+}
