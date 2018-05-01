@@ -27,7 +27,7 @@ $(document).ready(function(){
       $('#breakNum').html(breakCuenta);
   });
   $('#start, #reset').on("click", function(){
-    $('#sessionMas,#sessionMenos,#breakMenos,#breakMas,#reset').hide();
+    $('#sessionMas,#sessionMenos,#breakMenos,#breakMas,#reset,#start').hide();
     console.log(cuenta);
     var time = cuenta;
     time*= 60;
